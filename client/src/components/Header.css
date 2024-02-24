@@ -1,0 +1,119 @@
+/* Header.css */
+/* header {
+    background-color: #1cb10f;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    color: #ffcc00;
+  }
+   */
+
+  /* General reset for nav elements */
+/* Base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links li a:hover, .nav-links li a:focus {
+  background-color: #ffffff;
+  color: #6a11cb;
+  text-decoration: none;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  color: #6a11cb;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, button:focus {
+  background-color: #e2e6ea;
+  color: #5a01be;
+}
+
+/* Add a shadow to navbar for depth */
+.navbar {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
+  .nav-links {
+    gap: 30px;
+  }
+
+  .nav-links li a, button {
+    padding: 10px 20px;
+  }
+}

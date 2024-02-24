@@ -1,0 +1,108 @@
+/* General Layout and Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1594ae;
+    padding: 20px;
+  }
+  
+  /* Posts Container for Centering Posts */
+  .posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Individual Post Styling */
+  .post-container {
+    width: 80%; /* Adjust based on your layout preference */
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+  }
+  
+  .post-title, .post-body, .post-metadata {
+    margin-bottom: 15px;
+  }
+  
+  .post-title {
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .post-body {
+    color: #666;
+  }
+  
+  .post-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styles */
+  button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .edit-btn {
+    background-color: #ffc107; /* Yellow */
+    color: #000;
+  }
+  
+  .remove-btn {
+    background-color: #dc3545; /* Red */
+    color: #fff;
+  }
+  
+  .save-btn {
+    background-color: #28a745; /* Green */
+    color: #fff;
+  }
+  
+  .view-post-btn {
+    background-color: #007bff; /* Blue */
+    color: #c82626;
+  }
+  
+  .back-btn, .next-btn {
+    background-color: #6c757d; /* Grey */
+    color: #fff;
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .page-number {
+    margin: 0 10px;
+  }
+  
+  /* Input and Textarea Styles */
+  input, textarea {
+    width: 100%; /* Full width of the container */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #2d2424;
+    box-sizing: border-box;
+  }
+
+  
+  
